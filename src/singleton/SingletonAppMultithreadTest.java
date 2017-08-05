@@ -36,7 +36,7 @@ class SingletonMultithead{
 	private SingletonMultithead() {
 		counter++;
 	}
-	static public SingletonMultithead getInstance() {
+	public static SingletonMultithead getInstance() {
 		if(instance == null) {
 			instance = new SingletonMultithead(); 
 		}
